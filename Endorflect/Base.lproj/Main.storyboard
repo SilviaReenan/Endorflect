@@ -292,7 +292,7 @@
         <!--View Controller-->
         <scene sceneID="JaO-Vi-WJc">
             <objects>
-                <viewController id="TWc-ZS-xCl" customClass="ViewController" customModule="endorflect_preview" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="TWc-ZS-xCl" customClass="ViewController" customModule="Endorflect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LSO-PE-7Mi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
