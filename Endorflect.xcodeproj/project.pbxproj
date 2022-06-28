@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD8C1B1F286B5EE50087B4F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8C1B1E286B5EE50087B4F3 /* AppDelegate.swift */; };
+		BD8C1B21286B5EE50087B4F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8C1B20286B5EE50087B4F3 /* SceneDelegate.swift */; };
+		BD8C1B23286B5EE50087B4F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8C1B22286B5EE50087B4F3 /* ViewController.swift */; };
+		BD8C1B26286B5EE50087B4F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8C1B24286B5EE50087B4F3 /* Main.storyboard */; };
+		BD8C1B29286B5EE50087B4F3 /* Endorflect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD8C1B27286B5EE50087B4F3 /* Endorflect.xcdatamodeld */; };
+		BD8C1B2B286B5EE50087B4F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8C1B2A286B5EE50087B4F3 /* Assets.xcassets */; };
+		BD8C1B2E286B5EE50087B4F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8C1B2C286B5EE50087B4F3 /* LaunchScreen.storyboard */; };
+		BD8C1B39286B5EE60087B4F3 /* EndorflectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8C1B38286B5EE60087B4F3 /* EndorflectTests.swift */; };
+		BD8C1B43286B5EE60087B4F3 /* EndorflectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8C1B42286B5EE60087B4F3 /* EndorflectUITests.swift */; };
+		BD8C1B45286B5EE60087B4F3 /* EndorflectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8C1B44286B5EE60087B4F3 /* EndorflectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD8C1B35286B5EE60087B4F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD8C1B13286B5EE50087B4F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD8C1B1A286B5EE50087B4F3;
+			remoteInfo = Endorflect;
+		};
+		BD8C1B3F286B5EE60087B4F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD8C1B13286B5EE50087B4F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD8C1B1A286B5EE50087B4F3;
+			remoteInfo = Endorflect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD8C1B1B286B5EE50087B4F3 /* Endorflect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Endorflect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8C1B1E286B5EE50087B4F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD8C1B20286B5EE50087B4F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD8C1B22286B5EE50087B4F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD8C1B25286B5EE50087B4F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD8C1B28286B5EE50087B4F3 /* Endorflect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Endorflect.xcdatamodel; sourceTree = "<group>"; };
+		BD8C1B2A286B5EE50087B4F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD8C1B2D286B5EE50087B4F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD8C1B2F286B5EE50087B4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD8C1B34286B5EE60087B4F3 /* EndorflectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EndorflectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8C1B38286B5EE60087B4F3 /* EndorflectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndorflectTests.swift; sourceTree = "<group>"; };
+		BD8C1B3E286B5EE60087B4F3 /* EndorflectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EndorflectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8C1B42286B5EE60087B4F3 /* EndorflectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndorflectUITests.swift; sourceTree = "<group>"; };
+		BD8C1B44286B5EE60087B4F3 /* EndorflectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndorflectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD8C1B18286B5EE50087B4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8C1B31286B5EE60087B4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8C1B3B286B5EE60087B4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD8C1B12286B5EE50087B4F3 = {
+			isa = PBXGroup;
+			children = (
+				BD8C1B1D286B5EE50087B4F3 /* Endorflect */,
+				BD8C1B37286B5EE60087B4F3 /* EndorflectTests */,
+				BD8C1B41286B5EE60087B4F3 /* EndorflectUITests */,
+				BD8C1B1C286B5EE50087B4F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD8C1B1C286B5EE50087B4F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD8C1B1B286B5EE50087B4F3 /* Endorflect.app */,
+				BD8C1B34286B5EE60087B4F3 /* EndorflectTests.xctest */,
+				BD8C1B3E286B5EE60087B4F3 /* EndorflectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD8C1B1D286B5EE50087B4F3 /* Endorflect */ = {
+			isa = PBXGroup;
+			children = (
+				BD8C1B1E286B5EE50087B4F3 /* AppDelegate.swift */,
+				BD8C1B20286B5EE50087B4F3 /* SceneDelegate.swift */,
+				BD8C1B22286B5EE50087B4F3 /* ViewController.swift */,
+				BD8C1B24286B5EE50087B4F3 /* Main.storyboard */,
+				BD8C1B2A286B5EE50087B4F3 /* Assets.xcassets */,
+				BD8C1B2C286B5EE50087B4F3 /* LaunchScreen.storyboard */,
+				BD8C1B2F286B5EE50087B4F3 /* Info.plist */,
+				BD8C1B27286B5EE50087B4F3 /* Endorflect.xcdatamodeld */,
+			);
+			path = Endorflect;
+			sourceTree = "<group>";
+		};
+		BD8C1B37286B5EE60087B4F3 /* EndorflectTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD8C1B38286B5EE60087B4F3 /* EndorflectTests.swift */,
+			);
+			path = EndorflectTests;
+			sourceTree = "<group>";
+		};
+		BD8C1B41286B5EE60087B4F3 /* EndorflectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD8C1B42286B5EE60087B4F3 /* EndorflectUITests.swift */,
+				BD8C1B44286B5EE60087B4F3 /* EndorflectUITestsLaunchTests.swift */,
+			);
+			path = EndorflectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD8C1B1A286B5EE50087B4F3 /* Endorflect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8C1B48286B5EE60087B4F3 /* Build configuration list for PBXNativeTarget "Endorflect" */;
+			buildPhases = (
+				BD8C1B17286B5EE50087B4F3 /* Sources */,
+				BD8C1B18286B5EE50087B4F3 /* Frameworks */,
+				BD8C1B19286B5EE50087B4F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Endorflect;
+			productName = Endorflect;
+			productReference = BD8C1B1B286B5EE50087B4F3 /* Endorflect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD8C1B33286B5EE60087B4F3 /* EndorflectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8C1B4B286B5EE60087B4F3 /* Build configuration list for PBXNativeTarget "EndorflectTests" */;
+			buildPhases = (
+				BD8C1B30286B5EE60087B4F3 /* Sources */,
+				BD8C1B31286B5EE60087B4F3 /* Frameworks */,
+				BD8C1B32286B5EE60087B4F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD8C1B36286B5EE60087B4F3 /* PBXTargetDependency */,
+			);
+			name = EndorflectTests;
+			productName = EndorflectTests;
+			productReference = BD8C1B34286B5EE60087B4F3 /* EndorflectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD8C1B3D286B5EE60087B4F3 /* EndorflectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8C1B4E286B5EE60087B4F3 /* Build configuration list for PBXNativeTarget "EndorflectUITests" */;
+			buildPhases = (
+				BD8C1B3A286B5EE60087B4F3 /* Sources */,
+				BD8C1B3B286B5EE60087B4F3 /* Frameworks */,
+				BD8C1B3C286B5EE60087B4F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD8C1B40286B5EE60087B4F3 /* PBXTargetDependency */,
+			);
+			name = EndorflectUITests;
+			productName = EndorflectUITests;
+			productReference = BD8C1B3E286B5EE60087B4F3 /* EndorflectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD8C1B13286B5EE50087B4F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BD8C1B1A286B5EE50087B4F3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BD8C1B33286B5EE60087B4F3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BD8C1B1A286B5EE50087B4F3;
+					};
+					BD8C1B3D286B5EE60087B4F3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BD8C1B1A286B5EE50087B4F3;
+					};
+				};
+			};
+			buildConfigurationList = BD8C1B16286B5EE50087B4F3 /* Build configuration list for PBXProject "Endorflect" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD8C1B12286B5EE50087B4F3;
+			productRefGroup = BD8C1B1C286B5EE50087B4F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD8C1B1A286B5EE50087B4F3 /* Endorflect */,
+				BD8C1B33286B5EE60087B4F3 /* EndorflectTests */,
+				BD8C1B3D286B5EE60087B4F3 /* EndorflectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD8C1B19286B5EE50087B4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8C1B2E286B5EE50087B4F3 /* LaunchScreen.storyboard in Resources */,
+				BD8C1B2B286B5EE50087B4F3 /* Assets.xcassets in Resources */,
+				BD8C1B26286B5EE50087B4F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8C1B32286B5EE60087B4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8C1B3C286B5EE60087B4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD8C1B17286B5EE50087B4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8C1B23286B5EE50087B4F3 /* ViewController.swift in Sources */,
+				BD8C1B29286B5EE50087B4F3 /* Endorflect.xcdatamodeld in Sources */,
+				BD8C1B1F286B5EE50087B4F3 /* AppDelegate.swift in Sources */,
+				BD8C1B21286B5EE50087B4F3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8C1B30286B5EE60087B4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8C1B39286B5EE60087B4F3 /* EndorflectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8C1B3A286B5EE60087B4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8C1B45286B5EE60087B4F3 /* EndorflectUITestsLaunchTests.swift in Sources */,
+				BD8C1B43286B5EE60087B4F3 /* EndorflectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD8C1B36286B5EE60087B4F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD8C1B1A286B5EE50087B4F3 /* Endorflect */;
+			targetProxy = BD8C1B35286B5EE60087B4F3 /* PBXContainerItemProxy */;
+		};
+		BD8C1B40286B5EE60087B4F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD8C1B1A286B5EE50087B4F3 /* Endorflect */;
+			targetProxy = BD8C1B3F286B5EE60087B4F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD8C1B24286B5EE50087B4F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD8C1B25286B5EE50087B4F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD8C1B2C286B5EE50087B4F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD8C1B2D286B5EE50087B4F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD8C1B46286B5EE60087B4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD8C1B47286B5EE60087B4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD8C1B49286B5EE60087B4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Endorflect/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.Endorflect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD8C1B4A286B5EE60087B4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Endorflect/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.Endorflect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD8C1B4C286B5EE60087B4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.EndorflectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Endorflect.app/Endorflect";
+			};
+			name = Debug;
+		};
+		BD8C1B4D286B5EE60087B4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.EndorflectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Endorflect.app/Endorflect";
+			};
+			name = Release;
+		};
+		BD8C1B4F286B5EE60087B4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.EndorflectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Endorflect;
+			};
+			name = Debug;
+		};
+		BD8C1B50286B5EE60087B4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.EndorflectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Endorflect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD8C1B16286B5EE50087B4F3 /* Build configuration list for PBXProject "Endorflect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8C1B46286B5EE60087B4F3 /* Debug */,
+				BD8C1B47286B5EE60087B4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD8C1B48286B5EE60087B4F3 /* Build configuration list for PBXNativeTarget "Endorflect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8C1B49286B5EE60087B4F3 /* Debug */,
+				BD8C1B4A286B5EE60087B4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD8C1B4B286B5EE60087B4F3 /* Build configuration list for PBXNativeTarget "EndorflectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8C1B4C286B5EE60087B4F3 /* Debug */,
+				BD8C1B4D286B5EE60087B4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD8C1B4E286B5EE60087B4F3 /* Build configuration list for PBXNativeTarget "EndorflectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8C1B4F286B5EE60087B4F3 /* Debug */,
+				BD8C1B50286B5EE60087B4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD8C1B27286B5EE50087B4F3 /* Endorflect.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD8C1B28286B5EE50087B4F3 /* Endorflect.xcdatamodel */,
+			);
+			currentVersion = BD8C1B28286B5EE50087B4F3 /* Endorflect.xcdatamodel */;
+			path = Endorflect.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD8C1B13286B5EE50087B4F3 /* Project object */;
+}
