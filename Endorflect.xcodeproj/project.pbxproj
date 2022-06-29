@@ -17,6 +17,11 @@
 		BD8C1B39286B5EE60087B4F3 /* EndorflectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8C1B38286B5EE60087B4F3 /* EndorflectTests.swift */; };
 		BD8C1B43286B5EE60087B4F3 /* EndorflectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8C1B42286B5EE60087B4F3 /* EndorflectUITests.swift */; };
 		BD8C1B45286B5EE60087B4F3 /* EndorflectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8C1B44286B5EE60087B4F3 /* EndorflectUITestsLaunchTests.swift */; };
+		BDE20111286CCA5B00B47DF4 /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE20110286CCA5B00B47DF4 /* welcomeViewController.swift */; };
+		BDE20117286CE0B300B47DF4 /* Post-workout1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE20116286CE0B300B47DF4 /* Post-workout1ViewController.swift */; };
+		BDE2011B286CE13100B47DF4 /* Post2-workoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2011A286CE13100B47DF4 /* Post2-workoutViewController.swift */; };
+		BDE2011D286CE15D00B47DF4 /* Pre-workoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2011C286CE15D00B47DF4 /* Pre-workoutViewController.swift */; };
+		BDE2011F286CE17400B47DF4 /* Pre2-workoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2011E286CE17400B47DF4 /* Pre2-workoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		BD8C1B3E286B5EE60087B4F3 /* EndorflectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EndorflectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8C1B42286B5EE60087B4F3 /* EndorflectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndorflectUITests.swift; sourceTree = "<group>"; };
 		BD8C1B44286B5EE60087B4F3 /* EndorflectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndorflectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDE20110286CCA5B00B47DF4 /* welcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
+		BDE20116286CE0B300B47DF4 /* Post-workout1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post-workout1ViewController.swift"; sourceTree = "<group>"; };
+		BDE2011A286CE13100B47DF4 /* Post2-workoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post2-workoutViewController.swift"; sourceTree = "<group>"; };
+		BDE2011C286CE15D00B47DF4 /* Pre-workoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pre-workoutViewController.swift"; sourceTree = "<group>"; };
+		BDE2011E286CE17400B47DF4 /* Pre2-workoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pre2-workoutViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +114,11 @@
 				BD8C1B1E286B5EE50087B4F3 /* AppDelegate.swift */,
 				BD8C1B20286B5EE50087B4F3 /* SceneDelegate.swift */,
 				BD8C1B22286B5EE50087B4F3 /* ViewController.swift */,
+				BDE20110286CCA5B00B47DF4 /* welcomeViewController.swift */,
+				BDE2011C286CE15D00B47DF4 /* Pre-workoutViewController.swift */,
+				BDE2011E286CE17400B47DF4 /* Pre2-workoutViewController.swift */,
+				BDE20116286CE0B300B47DF4 /* Post-workout1ViewController.swift */,
+				BDE2011A286CE13100B47DF4 /* Post2-workoutViewController.swift */,
 				BD8C1B24286B5EE50087B4F3 /* Main.storyboard */,
 				BD8C1B2A286B5EE50087B4F3 /* Assets.xcassets */,
 				BD8C1B2C286B5EE50087B4F3 /* LaunchScreen.storyboard */,
@@ -261,9 +276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE2011F286CE17400B47DF4 /* Pre2-workoutViewController.swift in Sources */,
+				BDE2011D286CE15D00B47DF4 /* Pre-workoutViewController.swift in Sources */,
+				BDE2011B286CE13100B47DF4 /* Post2-workoutViewController.swift in Sources */,
+				BDE20117286CE0B300B47DF4 /* Post-workout1ViewController.swift in Sources */,
 				BD8C1B23286B5EE50087B4F3 /* ViewController.swift in Sources */,
 				BD8C1B29286B5EE50087B4F3 /* Endorflect.xcdatamodeld in Sources */,
 				BD8C1B1F286B5EE50087B4F3 /* AppDelegate.swift in Sources */,
+				BDE20111286CCA5B00B47DF4 /* welcomeViewController.swift in Sources */,
 				BD8C1B21286B5EE50087B4F3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
