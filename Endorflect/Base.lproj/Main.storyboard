@@ -13,7 +13,7 @@
             <objects>
                 <viewController id="lR2-jt-3g9" customClass="welcomeViewController" customModule="Endorflect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n34-Aj-bcf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="We are so happy you're here! What do you like to be called by?" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLd-pH-tKs">
@@ -72,6 +72,7 @@
                         <viewLayoutGuide key="safeArea" id="QEg-kf-cmu"/>
                         <color key="backgroundColor" red="0.84705877299999999" green="0.91764706370000004" blue="0.92549026010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="wRQ-I6-Gx3"/>
                     <connections>
                         <outlet property="Label" destination="mhb-gp-KhM" id="02A-cA-FFm"/>
                         <outlet property="TextField" destination="lbW-bF-JmN" id="W4h-5u-YJ2"/>
@@ -98,6 +99,9 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="lR2-jt-3g9" kind="show" id="XAR-fS-bgO"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qK-HW-ts0">
                                 <rect key="frame" x="27" y="414" width="17" height="24"/>
@@ -1006,10 +1010,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="ybJ-h0-xCA"/>
         <segue reference="Qwf-46-iL2"/>
         <segue reference="Fwh-UY-raB"/>
         <segue reference="Cas-KC-KKx"/>
-        <segue reference="Ya6-Ae-eHO"/>
+        <segue reference="DPX-hJ-bfE"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="blob" width="200" height="200"/>
